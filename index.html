@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>        
+    <meta charset="utf-8">  
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+    <title>HW9-Form</title>
+  </head>
+<body>		
+<div>HW9-Form</div>
+<div>
+  <form id="form" onsubmit="return validate();">
+    <ul>
+      <li>        
+        <input type="text" id="userName" name="user_name" placeholder="User Name" value="">
+      </li>
+      <li>
+        <input type="password" id="userPassword" name="password" placeholder="Password" value="">
+      </li>
+      <li>        
+        <input type="submit" id="btn" value="LOGIN">
+      </li>           
+    </ul>    
+  </form>
+</div>
+
+  <script src="./main.js" defer></script>
+</body>
+</html>
