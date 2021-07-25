@@ -31,3 +31,10 @@ input {
     border-radius: 2px;
     background-color: green;
 }
+.valid {
+    border: 2px solid black;
+}
+
+.invalid {
+    border: 2px solid red;
+}
